@@ -220,6 +220,8 @@ const predict = () => {
   }
 };
 
+const taxiFareApiUrl = 'https://YOUR_API_URL/predict';
+
 displayMap();
 pickupAutocomplete();
 dropoffAutocomplete();
