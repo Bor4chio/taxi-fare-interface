@@ -221,6 +221,7 @@ const predict = () => {
 };
 
 const taxiFareApiUrl = 'https://YOUR_API_URL/predict';
+mapboxgl.accessToken = 'YOUR_MAPBOX_API_ACCESS_TOKEN';
 
 displayMap();
 pickupAutocomplete();
